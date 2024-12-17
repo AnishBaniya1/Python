@@ -35,5 +35,5 @@ git log -p "name of file"
 ### To create new Branch
 git branch new_branch (e.g. git branch ab/branch-name)
 
-###To push in Branch
+### To push in Branch
 git push -u origin ab/branch-name
