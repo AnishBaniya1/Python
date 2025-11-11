@@ -2,6 +2,16 @@
 
 ## Git CheatSheet
 
+### Check current branch
+git branch
+
+### Rename branch name to 'main'
+git branch -M main
+
+### When local repo and github mismatch
+git pull --rebase origin main
+
+
 ### To List Item of Folder
 ls
 
@@ -21,7 +31,7 @@ git commit -m "message here"
 git remote add origin -section
 
 ### To push the file in repo
-git push -u origin master
+git push -u origin main
 
 ### To pull the change in the repo
 git pull
@@ -31,3 +41,9 @@ git push
 
 ### To check the history
 git log -p "name of file"
+
+### To create new Branch
+git branch new_branch (e.g. git branch ab/branch-name)
+
+### To push in Branch
+git push -u origin ab/branch-name
