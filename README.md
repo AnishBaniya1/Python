@@ -1,7 +1,10 @@
 # Python
 
 ## Git CheatSheet
-
+### When Pull Conflict arise
+git stash
+git pull
+git stash pop
 ### Check current branch
 git branch
 
